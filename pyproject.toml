@@ -1,0 +1,18 @@
+[project]
+name = "records-type"
+version = "2023.0"
+description = "A record type for Python"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "Brett Cannon", email = "brett@python.org"}]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+]
+
+[project.urls]
+Repository = "https://github.com/brettcannon/records-type"
+
+[project.optional-dependencies]
+test = ["pytest"]  # py -m pytest test_records.py
+benchmark = ["richbench"]  # py -m richbench --repeat 5 --times 1000 benchmarks/
