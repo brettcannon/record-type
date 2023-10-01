@@ -3,7 +3,7 @@ import typing
 
 
 def _make_var_positional_annotation(annotation):
-    """Conver the type annotation for *args to an appropriate one for a record."""
+    """Convert the type annotation for *args to an appropriate one for a record."""
     if isinstance(annotation, str):
         return f"tuple[{annotation}]"
     else:
