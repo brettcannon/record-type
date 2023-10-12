@@ -3,7 +3,7 @@ requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
 [project]
-name = "records-type"
+name = "record-type"
 version = "2023.0"
 description = "A record type for Python"
 readme = {file = "README.md", content-type = "text/markdown"}
