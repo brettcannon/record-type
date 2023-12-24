@@ -242,6 +242,12 @@ def test_immutable():
     with pytest.raises(TypeError):
         ins.y = 3
 
+    with pytest.raises(TypeError):
+        del ins.x
+
+    with pytest.raises(TypeError):
+        del ins.y
+
 
 def test_init():
     """__init__ accepts all parameters."""

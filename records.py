@@ -60,6 +60,11 @@ class Record:
             f"{type(self).__name__} object does not support attribute assignment"
         )
 
+    def __delattr__(self, *_):
+        raise TypeError(
+            f"{type(self).__name__} object does not support attribute deletion"
+        )
+
     def __repr__(self):
         init_signature = inspect.signature(self.__init__)
         args = []
