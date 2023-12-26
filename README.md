@@ -6,7 +6,7 @@ A proof-of-concept `record` type for Python.
 
 - Create a simple data type that's easy to explain to beginners
 - Creating the data type itself should be fast
-- Type annotations is supported, but not required
+- Type annotations are supported, but not required
 - Instances are immutable to make them (potentially) hashable
 - Support Python's entire parameter definition syntax for instance
   instantiation, and do so idiomatically
