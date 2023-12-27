@@ -4,7 +4,7 @@ build-backend = "pdm.backend"
 
 [project]
 name = "record-type"
-version = "2023.0"
+version = "2023.1"
 description = "A record type for Python"
 readme = {file = "README.md", content-type = "text/markdown"}
 requires-python = ">=3.11"
