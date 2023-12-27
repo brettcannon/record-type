@@ -38,12 +38,10 @@ class Record:
         other_attrs = frozenset(getattr(type(other), "__slots__", [object()]))
         self_attrs = frozenset(type(self).__slots__)
         if self_attrs != other_attrs:
-            print("not implemented")
             # Avoids the question of what to do if there are extra attributes on
             # `other`.
             return NotImplemented
 
-        print("Checking attrs")
         for attr in self_attrs:
             if not hasattr(other, attr):
                 return NotImplemented
