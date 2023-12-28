@@ -15,7 +15,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/brettcannon/records-type"
+Repository = "https://github.com/brettcannon/record-type"
 
 [project.optional-dependencies]
 test = ["pytest"]  # py -m pytest test_records.py
